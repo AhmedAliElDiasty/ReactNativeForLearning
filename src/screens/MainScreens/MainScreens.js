@@ -34,6 +34,11 @@ export const startTabs = () =>{
                                         }
                                       }],
                                       options: {
+                                        topBar: {
+                                          title: {
+                                            text: 'Find Place'
+                                          }
+                                        },
                                         bottomTab: {
                                           text: 'Find Place',
                                           icon: sources[0],
@@ -58,6 +63,11 @@ export const startTabs = () =>{
                                           }
                                         }],
                                         options: {
+                                          topBar: {
+                                            title: {
+                                              text: 'Share Place'
+                                            }
+                                          },
                                           bottomTab: {
                                             text: 'Share Place',
                                             icon: sources[1],
